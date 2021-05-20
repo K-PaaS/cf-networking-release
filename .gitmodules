@@ -34,18 +34,12 @@
 [submodule "src/github.com/nu7hatch/gouuid"]
 	path = src/github.com/nu7hatch/gouuid
 	url = https://github.com/nu7hatch/gouuid
-[submodule "src/github.com/lib/pq"]
-	path = src/github.com/lib/pq
-	url = https://github.com/lib/pq
 [submodule "src/github.com/jmoiron/sqlx"]
 	path = src/github.com/jmoiron/sqlx
 	url = https://github.com/jmoiron/sqlx
 [submodule "src/github.com/tedsuo/ifrit"]
 	path = src/github.com/tedsuo/ifrit
 	url = https://github.com/tedsuo/ifrit
-[submodule "src/github.com/go-sql-driver/mysql"]
-	path = src/github.com/go-sql-driver/mysql
-	url = https://github.com/go-sql-driver/mysql
 [submodule "src/github.com/coreos/go-iptables"]
 	path = src/github.com/coreos/go-iptables
 	url = https://github.com/coreos/go-iptables
