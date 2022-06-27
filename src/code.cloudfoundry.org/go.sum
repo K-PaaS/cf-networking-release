@@ -38,8 +38,6 @@ code.cloudfoundry.org/lager v2.0.0+incompatible h1:WZwDKDB2PLd/oL+USK4b4aEjUymIe
 code.cloudfoundry.org/lager v2.0.0+incompatible/go.mod h1:O2sS7gKP3HM2iemG+EnwvyNQK7pTSC6Foi4QiMp9sSk=
 code.cloudfoundry.org/locket v0.0.0-20220325152040-ad30c800960d h1:FpgH+4PH1PUDFrInTb5V3K1tgEiUPJVmsHnAcLiHdDo=
 code.cloudfoundry.org/locket v0.0.0-20220325152040-ad30c800960d/go.mod h1:AwHLRkdXtttLXNB8RHgLfErJ2kKafH62AR2OClhy6xI=
-code.cloudfoundry.org/policy_client v0.0.0-20220427143037-36975d7cc48d h1:FHnbEVper+q+NdWLZ8gaEiQI9ApeihwUwo3YvNmC0WY=
-code.cloudfoundry.org/policy_client v0.0.0-20220427143037-36975d7cc48d/go.mod h1:bzqpNvN9V1gJd0ny82Qnqxow5MFAnU97Sti/l4ORHWY=
 code.cloudfoundry.org/policy_client v0.0.0-20220509212643-31108c669266 h1:YBn6KFZ2UWq2HzTuHL9BPvOXT38hMcsMrK9t2AjLdAQ=
 code.cloudfoundry.org/policy_client v0.0.0-20220509212643-31108c669266/go.mod h1:bzqpNvN9V1gJd0ny82Qnqxow5MFAnU97Sti/l4ORHWY=
 code.cloudfoundry.org/rep v0.1441.2 h1:T6zkD9bjc4YGes6yhR49XeiOT6GxkWnjpECGNMQiSm4=
@@ -109,6 +107,7 @@ github.com/cloudfoundry/gosteno v0.0.0-20150423193413-0c8581caea35 h1:HdAWGlVEbF
 github.com/cloudfoundry/gosteno v0.0.0-20150423193413-0c8581caea35/go.mod h1:3YBPUR85RIrvaUTdA1dL38YSp6s3OHu1xrWLkGt2Mog=
 github.com/cloudfoundry/loggregatorlib v0.0.0-20170823162133-36eddf15ef12 h1:A+SRy/ndY6QSrN+bVWIhKDLU4t7OLFWVlLPxUWL/oGE=
 github.com/cloudfoundry/loggregatorlib v0.0.0-20170823162133-36eddf15ef12/go.mod h1:ucj7+svyACshmxV3Zze2NAcEcdbBf9scZYR+QKCX9/w=
+github.com/cloudfoundry/policy_client v0.0.0-20190731000202-6324003c2bfd/go.mod h1:SzBi4MV4jZXKT+Iph/D1Ww1BH1K+gTJMyCXjpeuGWHM=
 github.com/cloudfoundry/sonde-go v0.0.0-20171206171820-b33733203bb4 h1:cWfya7mo/zbnwYVio6eWGsFJHqYw4/k/uhwIJ1eqRPI=
 github.com/cloudfoundry/sonde-go v0.0.0-20171206171820-b33733203bb4/go.mod h1:GS0pCHd7onIsewbw8Ue9qa9pZPv2V88cUZDttK6KzgI=
 github.com/cncf/udpa/go v0.0.0-20191209042840-269d4d468f6f/go.mod h1:M8M6+tZqaGXZJjfX53e64911xZQV5JYwmTeXPW+k8Sc=
@@ -287,10 +286,10 @@ github.com/jackc/fake v0.0.0-20150926172116-812a484cc733 h1:vr3AYkKovP8uR8AvSGGU
 github.com/jackc/fake v0.0.0-20150926172116-812a484cc733/go.mod h1:WrMFNQdiFJ80sQsxDoMokWK1W5TQtxBFNpzWTD84ibQ=
 github.com/jackc/pgx v3.6.2+incompatible h1:2zP5OD7kiyR3xzRYMhOcXVvkDZsImVXfj+yIyTQf3/o=
 github.com/jackc/pgx v3.6.2+incompatible/go.mod h1:0ZGrqGqkRlliWnWB4zKnWtjbSWbGkVEFm4TeybAXq+I=
-github.com/jmoiron/sqlx v1.3.4 h1:wv+0IJZfL5z0uZoUjlpKgHkgaFSYD+r9CfrXjEXsO7w=
-github.com/jmoiron/sqlx v1.3.4 h1:wv+0IJZfL5z0uZoUjlpKgHkgaFSYD+r9CfrXjEXsO7w=
 github.com/jmoiron/sqlx v1.3.4/go.mod h1:2BljVx/86SuTyjE+aPYlHCTNvZrnJXghYGpNiXLBMCQ=
 github.com/jmoiron/sqlx v1.3.4/go.mod h1:2BljVx/86SuTyjE+aPYlHCTNvZrnJXghYGpNiXLBMCQ=
+github.com/jmoiron/sqlx v1.3.5 h1:vFFPA71p1o5gAeqtEAwLU4dnX2napprKtHr7PYIcN3g=
+github.com/jmoiron/sqlx v1.3.5/go.mod h1:nRVWtLre0KfCLJvgxzCsLVMogSvQ1zNJtpYr2Ccp0mQ=
 github.com/json-iterator/go v1.1.6/go.mod h1:+SdeFBvtyEkXs7REEP0seUULqWtbJapLOCVDaaPEHmU=
 github.com/json-iterator/go v1.1.9/go.mod h1:KdQUCv79m/52Kvf8AW2vK1V8akMuk1QjK/uOdHXbAo4=
 github.com/julienschmidt/httprouter v1.2.0/go.mod h1:SYymIcj16QtmaHHD7aYtjjsJG7VTCxuUUipMqKk8s4w=
